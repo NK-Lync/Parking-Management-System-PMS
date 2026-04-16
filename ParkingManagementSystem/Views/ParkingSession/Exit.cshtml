@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Cổng Ra Hệ Thống";
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        <div class="card shadow-lg border-0">
+            <div class="card-header bg-danger text-white text-center py-4">
+                <h2 class="mb-0"><i class="fa fa-sign-out-alt"></i> QUÉT THẺ LẤY XE</h2>
+            </div>
+            <div class="card-body p-5">
+                @if (TempData["Error"] != null)
+                {
+                    <div class="alert alert-danger">@TempData["Error"]</div>
+                }
+                <form asp-action="ProcessCheckOut" method="post">
+                    <div class="text-center mb-4">
+                        <i class="fa fa-id-card fa-5x text-secondary mb-3"></i>
+                        <h5>Vui lòng quẹt thẻ từ vào đầu đọc</h5>
+                    </div>
+                    <input type="text" name="rfidCode" class="form-control form-control-lg text-center"
+                           placeholder="Mã thẻ tự động điền..." autofocus required />
+                    <button type="submit" class="btn btn-danger btn-lg w-100 mt-4 py-3">
+                        TÍNH TIỀN & MỞ CỔNG
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

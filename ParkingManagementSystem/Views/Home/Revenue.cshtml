@@ -1,0 +1,92 @@
+﻿@model IEnumerable<ParkingManagementSystem.Models.ParkingSession>
+@{
+    ViewData["Title"] = "Báo Cáo Doanh Thu";
+}
+
+<div class="row g-4 mb-4">
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm bg-primary text-white p-4 h-100">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h6 class="text-uppercase small fw-bold opacity-75">Hôm Nay</h6>
+                    <h2 class="fw-bold mb-0">@ViewBag.TodayRevenue.ToString("N0") <small>đ</small></h2>
+                </div>
+                <i class="fa fa-calendar-day fa-2x opacity-25"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm bg-success text-white p-4 h-100">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h6 class="text-uppercase small fw-bold opacity-75">Tháng @DateTime.Now.Month</h6>
+                    <h2 class="fw-bold mb-0">@ViewBag.MonthRevenue.ToString("N0") <small>đ</small></h2>
+                </div>
+                <i class="fa fa-chart-line fa-2x opacity-25"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm bg-dark text-white p-4 h-100">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h6 class="text-uppercase small fw-bold opacity-75">Tổng Doanh Thu</h6>
+                    <h2 class="fw-bold mb-0">@ViewBag.TotalRevenue.ToString("N0") <small>đ</small></h2>
+                </div>
+                <i class="fa fa-wallet fa-2x opacity-25"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-header bg-white py-3">
+        <h5 class="fw-bold mb-0"><i class="fa fa-list me-2 text-primary"></i> CHI TIẾT CÁC GIAO DỊCH ĐÃ THU TIỀN</h5>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light text-muted small text-uppercase">
+                    <tr>
+                        <th class="ps-4">Biển Số</th>
+                        <th>Loại Xe</th>
+                        <th>Thời Gian Ra</th>
+                        <th>Thời Lượng</th>
+                        <th class="text-end pe-4">Số Tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        @foreach (var item in Model)
+                        {
+                            var timeSpan = (item.CheckOutTime ?? DateTime.Now) - (item.CheckInTime ?? DateTime.Now);
+                            <tr>
+                                <td class="ps-4">
+                                    <span class="badge bg-light text-dark border px-2 py-1 fw-bold text-uppercase">
+                                        @item.LicensePlateIn
+                                    </span>
+                                </td>
+                                <td>@(item.Vehicle?.VehicleType?.TypeName ?? "N/A")</td>
+                                <td class="small">@item.CheckOutTime?.ToString("HH:mm dd/MM/yyyy")</td>
+                                <td class="small">@($"{Math.Floor(timeSpan.TotalHours)}h {timeSpan.Minutes}m")</td>
+                                <td class="text-end pe-4 fw-bold text-primary">
+                                    + @(item.TotalFee?.ToString("N0") ?? "0") đ
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center py-5 text-muted">
+                                <i class="fa fa-folder-open fa-2x mb-2 d-block"></i>
+                                Chưa có giao dịch nào được hoàn thành.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

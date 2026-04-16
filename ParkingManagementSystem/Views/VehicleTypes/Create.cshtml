@@ -1,0 +1,27 @@
+﻿@model ParkingManagementSystem.Models.VehicleType
+
+<div class="container mt-4">
+    <div class="card border-0 shadow-sm mx-auto" style="max-width: 500px;">
+        <div class="card-header bg-primary text-white py-3">
+            <h5 class="mb-0 fw-bold">THÊM LOẠI XE MỚI</h5>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Create">
+                <div class="mb-3">
+                    <label asp-for="TypeName" class="form-label fw-bold">Tên loại xe</label>
+                    <input asp-for="TypeName" class="form-control" placeholder="VD: Xe tải, Xe đạp..." />
+                    <span asp-validation-for="TypeName" class="text-danger small"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="PricePerHour" class="form-label fw-bold">Giá mỗi giờ (VNĐ)</label>
+                    <input asp-for="PricePerHour" class="form-control" type="number" />
+                    <span asp-validation-for="PricePerHour" class="text-danger small"></span>
+                </div>
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary w-100 fw-bold">LƯU LẠI</button>
+                    <a asp-action="Index" class="btn btn-light w-100">HỦY</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

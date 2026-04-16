@@ -1,0 +1,318 @@
+﻿@{
+    ViewData["Title"] = "Trạm Kiểm Soát Vào/Ra";
+}
+
+<style>
+    body {
+        background-color: #f8fafd;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .header-bar {
+        background: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    }
+
+    .status-dot {
+        height: 10px;
+        width: 10px;
+        background-color: #28a745;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    /* Card Styles */
+    .lane-card {
+        background: #ffffff;
+        border-radius: 12px;
+        border: 1px solid #eef2f7;
+        padding: 15px;
+        height: 100%;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    }
+
+    .lane-title {
+        font-weight: 700;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .badge-barie {
+        background: #dc3545;
+        color: white;
+        font-size: 10px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    .badge-cam {
+        border: 1px solid #28a745;
+        color: #28a745;
+        font-size: 10px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    .badge-cam-out {
+        border: 1px solid #0d6efd;
+        color: #0d6efd;
+        font-size: 10px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    /* Camera Box */
+    .cam-box {
+        background: #12151e;
+        border-radius: 12px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+
+    .cam-placeholder {
+        color: #2c313c;
+        font-size: 40px;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Info Boxes */
+    .info-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .info-box {
+        background: #f8fafd;
+        border-radius: 8px;
+        padding: 12px;
+        border: 1px solid #f1f4f9;
+        position: relative;
+    }
+
+    .info-label {
+        font-size: 10px;
+        color: #a0aec0;
+        font-weight: bold;
+        text-uppercase;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .info-value {
+        font-size: 18px;
+        font-weight: 700;
+        color: #2d3748;
+    }
+
+        .info-value.empty {
+            color: #cbd5e0;
+        }
+
+        .info-value.price {
+            color: #2b6cb0;
+        }
+
+    .full-image-box {
+        background: #f8fafd;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #f1f4f9;
+        color: #a0aec0;
+        font-size: 11px;
+        font-weight: bold;
+        height: 100%;
+    }
+
+    .btn-more {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        color: #cbd5e0;
+        cursor: pointer;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="header-bar d-flex justify-content-between align-items-center">
+        <h4 class="mb-0 fw-bold" style="color: #2d3748;">@ViewData["Title"]</h4>
+        <div class="d-flex align-items-center">
+            <div class="bg-light px-3 py-1 rounded-pill small me-3">
+                <span class="status-dot"></span> <span class="text-muted">Máy chủ: Kết nối tốt</span>
+            </div>
+            <i class="fa fa-bell text-muted fs-5"></i>
+        </div>
+    </div>
+
+    <div class="row g-3">
+        <div class="col-lg-6">
+            <div class="lane-card">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="lane-title text-primary">
+                        <i class="fa fa-sign-out-alt me-2 fs-4"></i> LÀN RA (EXIT)
+                    </div>
+                    <div>
+                        <span class="badge-barie me-1">BARIE</span>
+                        <span class="badge-cam-out">CAM-02</span>
+                    </div>
+                </div>
+
+                <div class="cam-box">
+                    <video id="videoOut" autoplay playsinline></video>
+                    <div class="cam-placeholder"><i class="fa fa-camera"></i></div>
+                </div>
+
+                <form asp-action="ProcessCheckOut" method="post">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <div class="info-box shadow-sm" style="background: #f0f7ff;">
+                                <span class="info-label">BIỂN SỐ & CHỦ XE</span>
+                                <div class="info-value text-uppercase" style="font-size: 16px;">
+                                    @(TempData["LastPlate"] ?? "---")
+                                </div>
+                                @if (TempData["OwnerName"] != null)
+                                {
+                                    <div class="small text-primary fw-bold" style="font-size: 10px;">
+                                        <i class="fa fa-user"></i> @TempData["OwnerName"]
+                                    </div>
+                                }
+                            </div>
+
+                            <div class="info-box shadow-sm mt-2" style="background: #f0f7ff;">
+                                <span class="info-label">PHÍ THANH TOÁN</span>
+                                <div class="info-value @(TempData["IsMember"] != null ? "text-success" : "price")">
+                                    @if (TempData["TotalFee"] != null)
+                                    {
+                                        decimal fee = Convert.ToDecimal(TempData["TotalFee"]);
+                                        @(fee == 0 ? "0đ (THẺ THÁNG)" : fee.ToString("N0") + "đ")
+                                    }
+                                    else
+                                    {
+
+                                        <span>0đ</span>
+                                    }
+                                </div>
+                                @if (TempData["ExpiryDate"] != null)
+                                {
+                                    <div class="small text-muted" style="font-size: 9px;">Hạn: @TempData["ExpiryDate"]</div>
+                                }
+                            </div>
+
+                            <div class="mt-2">
+                                <label class="small text-muted fw-bold">QUÉT THẺ RA</label>
+                                <input type="text" name="rfidCode" class="form-control form-control-sm border-0 bg-light" placeholder="Quét thẻ..." required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mt-2 fw-bold">XÁC NHẬN CHO RA</button>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="full-image-box">
+                                <div class="text-center">
+                                    @if (TempData["LastCheckIn"] != null)
+                                    {
+                                        <i class="fa fa-clock text-primary mb-1"></i>
+                                        <div style="font-size: 10px; color: #2d3748;">Vào: @TempData["LastCheckIn"]</div>
+                                        <div class="fw-bold mt-1 text-primary" style="font-size: 12px;">@TempData["LastPlate"]</div>
+                                    }
+                                    else
+                                    {
+                                        <i class="fa fa-image fa-2x mb-2"></i>
+                                    
+                                        <br>
+                                        <span>ẢNH VÀO</span>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="lane-card">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="lane-title text-primary">
+                        <i class="fa fa-sign-out-alt me-2 fs-4"></i> LÀN RA (EXIT)
+                    </div>
+                    <div>
+                        <span class="badge-barie me-1">BARIE</span>
+                        <span class="badge-cam-out">CAM-02</span>
+                    </div>
+                </div>
+
+                <div class="cam-box">
+                    <video id="videoOut" autoplay playsinline></video>
+                    <div class="cam-placeholder"><i class="fa fa-camera"></i></div>
+                </div>
+
+                <form asp-action="ProcessCheckOut" method="post">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <div class="info-box shadow-sm" style="background: #f0f7ff;">
+                                <span class="info-label">BIỂN SỐ ĐỐI CHIẾU</span>
+                                <input type="text" name="rfidCode" class="form-control border-0 bg-transparent p-0 fw-bold fs-5" placeholder="---">
+                                <i class="fa fa-ellipsis-h btn-more"></i>
+                            </div>
+                            <div class="info-box shadow-sm mt-2" style="background: #f0f7ff;">
+                                <span class="info-label">PHÍ THANH TOÁN</span>
+                                <div class="info-value price">0đ</div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary w-100 mt-2 fw-bold">XÁC NHẬN CHO RA</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="full-image-box">
+                                <div class="text-center">
+                                    <i class="fa fa-image fa-2x mb-2 shadow-sm p-2 rounded"></i><br>
+                                    ẢNH VÀO
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<canvas id="canvas" style="display:none;"></canvas>
+
+<script>
+    const vIn = document.getElementById('videoIn');
+    const vOut = document.getElementById('videoOut');
+    const canvas = document.getElementById('canvas');
+
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then(s => {
+            vIn.srcObject = s;
+            vOut.srcObject = s;
+        });
+
+    document.getElementById('formIn').onsubmit = function() {
+        canvas.width = vIn.videoWidth;
+        canvas.height = vIn.videoHeight;
+        canvas.getContext('2d').drawImage(vIn, 0, 0);
+        document.getElementById('imgIn').value = canvas.toDataURL('image/jpeg');
+    };
+</script>

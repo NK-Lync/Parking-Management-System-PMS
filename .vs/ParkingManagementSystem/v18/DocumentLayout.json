@@ -1,0 +1,469 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\data\\parkingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\data\\parkingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\vehicletypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\vehicletypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\vehicletypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\vehicletypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\vehicletypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\vehicletypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\vehicletypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\vehicletypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\parkingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\parkingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\parkingsession\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\parkingsession\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\home\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\home\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\parkingsession\\receipt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\parkingsession\\receipt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\views\\monthlycard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\monthlycard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\models\\parkingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\parkingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\models\\parkingposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\parkingposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\admin\\desktop\\parkingmanagementsystem\\parkingmanagementsystem\\parkingmanagementsystem\\models\\parkingtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\parkingtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\appsettings.json",
+              "RelativeToolTip": "ParkingManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T15:37:30.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Program.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VehicleType.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\VehicleType.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\VehicleType.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\VehicleType.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\VehicleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\VehicleTypes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Edit.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\VehicleTypes\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\User.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParkingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Data\\ParkingDbContext.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Data\\ParkingDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Data\\ParkingDbContext.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Data\\ParkingDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\VehiclesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\VehiclesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAmwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VehicleTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\VehicleTypesController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\VehicleTypesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\VehicleTypesController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\VehicleTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwGcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\VehicleTypes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\VehicleTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\VehicleTypes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Create.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\VehicleTypes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ParkingSessionController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\ParkingSessionController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\ParkingSessionController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\ParkingSessionController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\ParkingSessionController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAcwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ParkingSession.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingSession.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\ParkingSession.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingSession.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\ParkingSession.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ParkingPosition.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingPosition.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\ParkingPosition.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingPosition.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\ParkingPosition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ParkingTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingTransaction.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\ParkingTransaction.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingTransaction.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\ParkingTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Revenue.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Home\\Revenue.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Home\\Revenue.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Home\\Revenue.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Home\\Revenue.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwEEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:26:53.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\ParkingSession\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\ParkingSession\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\ParkingSession\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\ParkingSession\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwIIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Receipt.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\ParkingSession\\Receipt.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\ParkingSession\\Receipt.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\ParkingSession\\Receipt.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\ParkingSession\\Receipt.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwHEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\MonthlyCard\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\MonthlyCard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ParkingManagementSystem\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\MonthlyCard\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\MonthlyCard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:26:53.969Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+﻿@model IEnumerable<ParkingManagementSystem.Models.MonthlyCard>
+
+@{
+    ViewData["Title"] = "Quản Lý Thẻ Tháng";
+}
+
+<div class="header-bar d-flex justify-content-between align-items-center mb-4">
+    <h4 class="mb-0 fw-bold" style="color: #2d3748;">
+        <i class="fa fa-id-card me-2 text-primary"></i> DANH SÁCH THẺ THÁNG
+    </h4>
+    <a asp-action="Create" class="btn btn-primary fw-bold shadow-sm">
+        <i class="fa fa-plus me-1"></i> ĐĂNG KÝ THẺ MỚI
+    </a>
+</div>
+
+<div class="lane-card border-0 shadow-sm p-0 overflow-hidden">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr class="small text-muted fw-bold">
+                    <th class="ps-4">CHỦ XE</th>
+                    <th>BIỂN SỐ</th>
+                    <th>MÃ THẺ (RFID)</th>
+                    <th>SỐ DƯ</th>
+                    <th>HẠN DÙNG</th>
+                    <th class="text-center">NẠP TIỀN / THAO TÁC</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        bool isExpired = item.ExpiryDate < DateTime.Now;
+                        <tr>
+                            <td class="ps-4">
+                                <div class="fw-bold text-dark">@item.OwnerName</div>
+                            </td>
+                            <td>
+                                <span class="badge bg-light text-primary border px-3">
+                                    @(item.Vehicle?.LicensePlate ?? "Chưa gán xe")
+                                </span>
+                            </td>
+                            <td><code class="text-danger fw-bold">@(item.RFIDCard?.RfidCode ?? "N/A")</code></td>
+                            <td>
+                                <span class="fw-bold text-dark">@item.Balance.ToString("N0") đ</span>
+                            </td>
+                            <td>
+                                <div class="@(isExpired ? "text-danger fw-bold" : "text-dark")">
+                                    @item.ExpiryDate.ToString("dd/MM/yyyy")
+                                    @if (isExpired)
+                                    {
+                                        <small class="d-block text-danger" style="font-size: 10px;">(Đã hết hạn)</small>
+                                    }
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <div class="d-flex justify-content-center gap-2">
+                                    <form asp-action="Recharge" method="post" class="d-flex gap-1 border-0 p-0 m-0 shadow-none">
+                                        <input type="hidden" name="id" value="@item.MonthlyCardId" />
+                                        <input type="number" name="amount" class="form-control form-control-sm" style="width: 100px;" placeholder="+ VNĐ" required>
+                                        <button type="submit" class="btn btn-sm btn-success shadow-sm" title="Nạp tiền">
+                                            <i class="fa fa-plus"></i>
+                                        </button>
+                                    </form>
+
+                                    <div class="vr mx-2"></div>
+
+                                    <a asp-action="Delete" asp-route-id="@item.MonthlyCardId" class="btn btn-sm btn-outline-danger border-0"
+                                       onclick="return confirm('Xóa dữ liệu thẻ của @item.OwnerName?')">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-center py-5 text-muted">
+                            <i class="fa fa-folder-open fa-2x mb-2 d-block"></i>
+                            Chưa có thẻ tháng nào được đăng ký.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@model ParkingManagementSystem.Models.VehicleType
+@{
+    ViewData["Title"] = "Cập nhật giá";
+}
+
+<div class="container mt-4">
+    <div class="card border-0 shadow-sm mx-auto" style="max-width: 450px;">
+        <div class="card-body p-4 text-center">
+            <h5 class="fw-bold mb-4 text-uppercase">Cập nhật: @Model.TypeName</h5>
+            <form asp-action="Edit">
+                <input type="hidden" asp-for="TypeId" />
+                <input type="hidden" asp-for="TypeName" />
+                <div class="mb-4">
+                    <label asp-for="PricePerHour" class="form-label small fw-bold text-muted"></label>
+                    <input asp-for="PricePerHour" class="form-control form-control-lg text-center fw-bold text-primary" />
+                    <span asp-validation-for="PricePerHour" class="text-danger small"></span>
+                </div>
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-lg fw-bold">LƯU GIÁ MỚI</button>
+                    <a asp-action="Index" class="btn btn-link text-muted">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

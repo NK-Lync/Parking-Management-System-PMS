@@ -1,0 +1,54 @@
+﻿@model ParkingManagementSystem.Models.User
+@{
+    ViewData["Title"] = "Sửa nhân viên";
+}
+
+<div class="container mt-4">
+    <div class="card border-0 shadow-sm mx-auto" style="max-width: 600px;">
+        <div class="card-header bg-warning py-3">
+            <h5 class="mb-0 fw-bold">CHỈNH SỬA NHÂN VIÊN</h5>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Edit">
+                <input type="hidden" asp-for="UserId" />
+                <div asp-validation-summary="All" class="text-danger small mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="FullName" class="form-label fw-bold small text-muted text-uppercase"></label>
+                    <input asp-for="FullName" class="form-control border-0 bg-light" />
+                    <span asp-validation-for="FullName" class="text-danger small"></span>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <label asp-for="UserName" class="form-label fw-bold small text-muted text-uppercase"></label>
+                        <input asp-for="UserName" class="form-control bg-light" readonly />
+                    </div>
+                    <div class="col-6">
+                        <label asp-for="Role" class="form-label fw-bold small text-muted text-uppercase"></label>
+                        <select asp-for="Role" class="form-select border-0 bg-light">
+                            <option value="Staff">Staff</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold small text-muted">MẬT KHẨU </label>
+                    <input name="Password" type="password" class="form-control border-0 bg-light" placeholder="******" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PhoneNumber" class="form-label fw-bold small text-muted text-uppercase"></label>
+                    <input asp-for="PhoneNumber" class="form-control border-0 bg-light" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary w-100 fw-bold py-2">CẬP NHẬT</button>
+                    <a asp-action="Index" class="btn btn-light w-100 py-2 text-decoration-none text-center">HỦY</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

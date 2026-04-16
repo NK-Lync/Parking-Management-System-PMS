@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Cổng Vào - Tích Hợp Camera";
+}
+
+<div class="row g-4">
+    <div class="col-xl-7">
+        <div class="card h-100 bg-dark shadow-lg">
+            <div class="card-header border-0 bg-transparent text-white d-flex justify-content-between align-items-center">
+                <span><i class="fa fa-video me-2"></i> LIVE WEBCAM</span>
+                <span id="camera-status" class="badge bg-success rounded-pill">ONLINE</span>
+            </div>
+            <div class="card-body p-0 position-relative" style="min-height: 450px; background: #000;">
+                <video id="webcam" autoplay playsinline class="w-100 h-100" style="object-fit: cover;"></video>
+                <canvas id="photo-canvas" style="display:none;"></canvas>
+            </div>
+            <div class="card-footer bg-dark border-0">
+                <button type="button" class="btn btn-outline-light btn-sm" onclick="startCamera()">
+                    <i class="fa fa-refresh me-1"></i> Thử lại Camera
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-5">
+        <div class="card shadow-sm h-100">
+            <div class="card-header bg-primary text-white py-3">
+                <h5 class="mb-0 fw-bold"><i class="fa fa-edit me-2"></i> THÔNG TIN VÀO</h5>
+            </div>
+            <div class="card-body p-4">
+                <form id="entryForm" asp-action="ProcessCheckIn" method="post">
+                    <input type="hidden" id="capturedImage" name="capturedImageBase64" />
+
+                    <div class="mb-3">
+                        <label class="form-label fw-bold small text-muted">MÃ THẺ TỪ (RFID)</label>
+                        <input type="text" name="rfidCode" class="form-control form-control-lg bg-light" placeholder="Quét thẻ..." required autofocus>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-bold small text-muted">BIỂN SỐ XE</label>
+                        <input type="text" name="licensePlate" id="licensePlate" class="form-control form-control-lg fw-bold text-uppercase" placeholder="30A-123.45" required>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-bold small text-muted">VỊ TRÍ ĐỖ</label>
+                        <select name="positionId" class="form-select form-select-lg bg-light border-0 shadow-none">
+                            @foreach (var pos in ViewBag.AvailablePositions)
+                            {
+                                <option value="@pos.PositionId">KHU @pos.Zone - VỊ TRÍ @pos.PositionId</option>
+                            }
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg w-100 py-3 shadow-sm fw-bold">
+                        <i class="fa fa-camera me-2"></i> CHỤP ẢNH & XÁC NHẬN VÀO
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const video = document.getElementById('webcam');
+    const canvas = document.getElementById('photo-canvas');
+    const form = document.getElementById('entryForm');
+    const capturedImageInput = document.getElementById('capturedImage');
+
+    // 1. Yêu cầu quyền truy cập Camera khi load trang
+    async function startCamera() {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+            video.srcObject = stream;
+            document.getElementById('camera-status').innerText = "ONLINE";
+        } catch (err) {
+            console.error("Lỗi truy cập webcam: ", err);
+            document.getElementById('camera-status').innerText = "ERROR";
+            document.getElementById('camera-status').className = "badge bg-danger rounded-pill";
+        }
+    }
+
+    // 2. Chụp ảnh khi người dùng nhấn nút Submit
+    form.addEventListener('submit', function(e) {
+        // Vẽ frame hiện tại của video lên canvas
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        const context = canvas.getContext('2d');
+        context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        // Chuyển ảnh sang dạng chuỗi Base64
+        const imageData = canvas.toDataURL('image/jpeg');
+        capturedImageInput.value = imageData;
+    });
+
+    // Khởi động camera ngay khi vào trang
+    startCamera();
+</script>

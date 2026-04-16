@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ParkingManagementSystem.Models.Vehicle>
+@{
+    ViewData["Title"] = "Quản lý Phương tiện";
+}
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body p-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h4 class="fw-bold mb-1">DANH SÁCH XE TRONG BÃI</h4>
+                <p class="text-muted small mb-0">Quản lý thông tin tất cả các phương tiện đã đăng ký hoặc đang gửi.</p>
+            </div>
+            <a asp-action="Create" class="btn btn-primary shadow-sm"><i class="fa fa-plus me-2"></i>Thêm xe mới</a>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle border-top">
+                <thead>
+                    <tr class="text-secondary small text-uppercase">
+                        <th>ID</th>
+                        <th>Biển số</th>
+                        <th>Loại xe</th>
+                        <th>Mô tả</th>
+                        <th class="text-center">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="fw-bold text-primary">#@item.VehicleId</td>
+                            <td><span class="badge bg-light text-dark border px-3 py-2 fs-6">@item.LicensePlate</span></td>
+                            <td><span class="text-muted"><i class="fa fa-info-circle me-1"></i> @item.VehicleType.TypeName</span></td>
+                            <td>@item.Description</td>
+                            <td class="text-center">
+                                <div class="btn-group">
+                                    <a asp-action="Edit" asp-route-id="@item.VehicleId" class="btn btn-outline-secondary btn-sm border-0"><i class="fa fa-edit"></i></a>
+                                    <a asp-action="Delete" asp-route-id="@item.VehicleId" class="btn btn-outline-danger btn-sm border-0"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

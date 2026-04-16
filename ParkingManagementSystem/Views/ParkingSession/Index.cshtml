@@ -1,0 +1,131 @@
+﻿@model IEnumerable<ParkingManagementSystem.Models.ParkingSession>
+
+@{
+    ViewData["Title"] = "Lịch Sử Ra Vào";
+}
+
+<div class="header-bar d-flex justify-content-between align-items-center mb-4">
+    <h4 class="mb-0 fw-bold" style="color: #2d3748;">
+        <i class="fa fa-history me-2 text-primary"></i> NHẬT KÝ XE RA VÀO
+    </h4>
+    <div class="d-flex gap-2">
+        <span class="badge bg-white text-dark border px-3 py-2 shadow-sm">
+            <i class="fa fa-car me-1 text-success"></i> Tổng: @(Model?.Count() ?? 0) lượt
+        </span>
+    </div>
+</div>
+
+<div class="card border-0 shadow-sm overflow-hidden">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr class="small text-uppercase fw-bold text-muted">
+                    <th class="ps-4">Biển Số</th>
+                    <th>Loại Xe</th> @* Cột tiêu đề *@
+                    <th>Mã Thẻ (RFID)</th>
+                    <th>Thời Gian Vào</th>
+                    <th>Thời Gian Ra</th>
+                    <th>Thời Lượng</th>
+                    <th>Phí Gửi</th>
+                    <th class="text-center">Trạng Thái</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        var start = item.CheckInTime ?? DateTime.Now;
+                        var end = item.CheckOutTime ?? DateTime.Now;
+                        var duration = end - start;
+
+                        <tr>
+                            <td class="ps-4">
+                                <span class="badge bg-light text-dark border px-3 py-2 fw-bold text-uppercase">
+                                    @item.LicensePlateIn
+                                </span>
+                            </td>
+
+                            @* --- BỔ SUNG CỘT HIỂN THỊ LOẠI XE TẠI ĐÂY --- *@
+                            <td>
+                                <span class="text-muted small">
+                                    <i class="fa fa-info-circle me-1 opacity-50"></i>
+                                    @(item.Vehicle?.VehicleType?.TypeName ?? "Xe vãng lai")
+                                </span>
+                            </td>
+
+                            <td>
+                                <code class="text-primary fw-bold">@(item.RFIDCard?.RfidCode ?? "N/A")</code>
+                            </td>
+                            <td class="small text-muted">
+                                <i class="fa fa-clock me-1"></i> @(item.CheckInTime?.ToString("HH:mm dd/MM/yyyy") ?? "---")
+                            </td>
+                            <td class="small text-muted">
+                                @if (item.CheckOutTime.HasValue)
+                                {
+                                    <i class="fa fa-clock me-1 text-danger"></i>
+                                    @item.CheckOutTime.Value.ToString("HH:mm dd/MM/yyyy")
+                                }
+                                else
+                                {
+                                    <span class="text-italic opacity-50">---</span>
+                                }
+                            </td>
+                            <td class="small">
+                                <span class="text-dark">
+                                    @($"{Math.Floor(duration.TotalHours)}h {duration.Minutes}m")
+                                </span>
+                            </td>
+                            <td>
+                                <span class="fw-bold text-primary">
+                                    @(item.TotalFee.HasValue? item.TotalFee.Value.ToString("N0") + " đ" : "0 đ")
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                @if (item.CheckOutTime == null)
+                                {
+                                    <span class="badge rounded-pill bg-success px-3">
+                                        <i class="fa fa-sign-in-alt me-1"></i> Đang ở trong bãi
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="badge rounded-pill bg-light text-muted border px-3">
+                                        Đã thanh toán & Ra
+                                    </span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        @* Cập nhật colspan lên 8 vì bảng giờ có 8 cột *@
+                        <td colspan="8" class="text-center py-5 text-muted">
+                            <i class="fa fa-info-circle fa-2x mb-2"></i>
+                            <p>Chưa có dữ liệu lượt gửi xe nào.</p>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    .table thead th {
+        border-top: none;
+        font-size: 0.75rem;
+        letter-spacing: 0.5px;
+    }
+
+    .table tbody td {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .badge {
+        font-weight: 600;
+    }
+</style>

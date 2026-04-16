@@ -1,0 +1,67 @@
+﻿@model ParkingManagementSystem.Models.MonthlyCard
+@{
+    ViewData["Title"] = "Đăng ký Thành viên Mới";
+}
+
+<div class="container py-4">
+    <div class="card shadow-sm border-0 mx-auto" style="max-width: 650px;">
+        <div class="card-header bg-white py-3 border-0">
+            <h5 class="fw-bold mb-0 text-primary"><i class="fa fa-id-card me-2"></i> ĐĂNG KÝ THÀNH VIÊN</h5>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Create" method="post">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <label class="form-label small fw-bold">CHỦ XE</label>
+                        <input asp-for="OwnerName" class="form-control bg-light border-0 py-2" placeholder="Nhập họ tên khách hàng..." required oninput="this.value = this.value.replace(/[^a-zA-ZÀ-ỹ\s]/g, '')" />
+                        <span asp-validation-for="OwnerName" class="text-danger small"></span>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <label class="form-label small fw-bold">MÃ THẺ (RFID)</label>
+                        <input type="text" name="rfidCode" class="form-control bg-light border-0 py-2" placeholder="Quét hoặc nhập mã thẻ..." pattern="[A-Za-z0-9]+"
+                               title="Chỉ được nhập chữ và số" required />
+                        <small class="text-muted" style="font-size: 10px;">Hệ thống sẽ tự tạo nếu thẻ chưa tồn tại.</small>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label small fw-bold">BIỂN SỐ XE</label>
+                        <input type="text" name="licensePlate" class="form-control bg-light border-0 py-2 text-uppercase fw-bold" placeholder="VD: 30A-123.45" pattern="^[0-9]{2}[A-Z0-9]{1,2}-[0-9]{3,5}(\.[0-9]{1,2})?$"
+                               title="Định dạng: 30A-123.45"
+                               oninput="this.value = this.value.toUpperCase()" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label small fw-bold text-uppercase">Loại xe</label>
+                        <select name="vehicleTypeId" class="form-select bg-light border-0 py-2 shadow-sm"
+                                asp-items="ViewBag.VehicleTypeId" required>
+                            <option value="">-- Chọn loại xe --</option>
+                        </select>
+                        <small class="text-muted" style="font-size: 10px;">Dùng để áp giá tiền khi thẻ hết hạn.</small>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label small fw-bold">NGÀY HẾT HẠN</label>
+                        <input asp-for="ExpiryDate" type="date" class="form-control bg-light border-0 py-2" value="@DateTime.Now.AddDays(30).ToString("yyyy-MM-dd")" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label small fw-bold">SỐ DƯ BAN ĐẦU (VNĐ)</label>
+                        <input asp-for="Balance" type="number" min="0"
+                               step="1000" class="form-control bg-light border-0 py-2" value="0" />
+                    </div>
+                </div>
+
+                <div class="mt-4 d-flex gap-2">
+                    <button type="submit" class="btn btn-primary w-100 py-2 fw-bold shadow-sm">XÁC NHẬN ĐĂNG KÝ</button>
+                    <a asp-action="Index" class="btn btn-light w-100 py-2 fw-bold text-muted">HỦY BỎ</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

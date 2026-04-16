@@ -1,0 +1,467 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\vehicletypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\vehicletypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\vehicletypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\vehicletypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\vehicletypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\vehicletypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\vehicletypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\vehicletypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\parkingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\parkingsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\data\\parkingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\data\\parkingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\parkingsession\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\parkingsession\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\home\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\home\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\parkingsession\\receipt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\parkingsession\\receipt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\views\\monthlycard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\views\\monthlycard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\models\\parkingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\parkingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\models\\parkingposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\parkingposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|c:\\users\\duy hoang\\desktop\\ictu\\c\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\parkingmanagementsystem\\parkingmanagementsystem\\models\\parkingtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DE1B99-B1D3-403D-947B-30204B898167}|ParkingManagementSystem\\ParkingManagementSystem.csproj|solutionrelative:parkingmanagementsystem\\models\\parkingtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T11:47:26.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Program.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T11:43:55.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\VehiclesController.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\VehiclesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:30:16.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T10:30:02.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:28:54.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VehicleType.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\VehicleType.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\VehicleType.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\VehicleType.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\VehicleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:35:39.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\VehicleTypes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Edit.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\VehicleTypes\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T10:34:17.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\User.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:27:52.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T10:45:59.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAmwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T09:11:05.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VehicleTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\VehicleTypesController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\VehicleTypesController.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\VehicleTypesController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\VehicleTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:32:13.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T10:33:08.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwGcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:28:40.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\VehicleTypes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\VehicleTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T10:33:54.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T11:01:05.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\VehicleTypes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\VehicleTypes\\Create.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\VehicleTypes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T10:51:18.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ParkingSessionController.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\ParkingSessionController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\ParkingSessionController.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\ParkingSessionController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\ParkingSessionController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAcwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:13:54.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ParkingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Data\\ParkingDbContext.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Data\\ParkingDbContext.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Data\\ParkingDbContext.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Data\\ParkingDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:28:16.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ParkingSession.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingSession.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\ParkingSession.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingSession.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\ParkingSession.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:30:41.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ParkingPosition.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingPosition.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\ParkingPosition.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingPosition.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\ParkingPosition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:30:27.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ParkingTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingTransaction.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Models\\ParkingTransaction.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Models\\ParkingTransaction.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Models\\ParkingTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:30:25.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Revenue.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Home\\Revenue.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Home\\Revenue.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Home\\Revenue.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Home\\Revenue.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwEEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T09:17:54.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ParkingManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:17:22.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\ParkingSession\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\ParkingSession\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\ParkingSession\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\ParkingSession\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwIIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T09:15:03.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Receipt.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\ParkingSession\\Receipt.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\ParkingSession\\Receipt.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\ParkingSession\\Receipt.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\ParkingSession\\Receipt.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T09:38:26.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwHEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T09:37:33.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\MonthlyCard\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParkingManagementSystem\\Views\\MonthlyCard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DUY HOANG\\Desktop\\ICTU\\C\u00F4ng ngh\u1EC7 ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\ParkingManagementSystem\\ParkingManagementSystem\\Views\\MonthlyCard\\Index.cshtml",
+              "RelativeToolTip": "ParkingManagementSystem\\Views\\MonthlyCard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T09:34:06.668Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+﻿@model ParkingManagementSystem.Models.ParkingSession
+@{
+    ViewData["Title"] = "Hóa đơn thanh toán";
+    Layout = "_Layout";
+}
+
+<div class="container d-flex justify-content-center">
+    <div class="card border-0 shadow" style="width: 450px;">
+        <div class="card-body p-5 text-center">
+            <h4 class="fw-bold text-primary">PARKING PRO</h4>
+            <p class="text-muted small">Cổng số: Gate-01 | NV: Admin</p>
+            <hr class="border-dashed">
+
+            <div class="d-flex justify-content-between mb-2">
+                <span class="text-muted">Biển số:</span>
+                <span class="fw-bold text-uppercase">@Model.LicensePlateIn</span>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+                <span class="text-muted">Giờ vào:</span>
+                <span>@(Model.CheckInTime?.ToString("HH:mm dd/MM") ?? "---")</span>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+                <span class="text-muted">Giờ ra:</span>
+                <span>@(Model.CheckOutTime?.ToString("HH:mm dd/MM") ?? "---")</span>
+            </div>
+            <hr>
+            <div class="py-3">
+                <h5 class="text-muted small fw-bold text-uppercase">Tổng tiền thu</h5>
+                <h1 class="display-5 fw-bold text-primary">
+                    @(Model.TotalFee?.ToString("N0") ?? "0") <small style="font-size: 1.5rem">đ</small>
+                </h1>
+            </div>
+            <hr>
+            <p class="small text-muted fst-italic">Cảm ơn quý khách đã sử dụng dịch vụ!</p>
+
+            <div class="d-grid gap-2 mt-4 d-print-none">
+                <button onclick="window.print()" class="btn btn-outline-dark fw-bold">
+                    <i class="fa fa-print me-2"></i> IN HÓA ĐƠN
+                </button>
+                <a asp-action="Monitor" class="btn btn-primary fw-bold">
+                    TIẾP TỤC VẬN HÀNH
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    hr.border-dashed {
+        border-top: 2px dashed #dee2e6;
+    }
+
+    /* CSS dành riêng cho lúc bấm nút In */
+    @@media print {
+        body { background: white; }
+        #sidebar, .navbar-top, .d-print-none {
+            display: none !important;
+
+    {
+        background: white;
+    }
+
+    #sidebar, .navbar-top, .d-print-none {
+        display: none !important;
+    }
+
+    #main-content {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .card {
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    }
+</style>
